@@ -4,10 +4,5 @@ pandas
 matplotlib
 scipy
 scikit-learn
-<<<<<<< HEAD
 biopython
 bioread
-=======
-bioread
-biopython
->>>>>>> 017cfb223ac812889e346cd073f5dff18bd9a7c9
