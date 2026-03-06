@@ -154,8 +154,7 @@ Muscle Condition Classification: {prediction}
         return f"Processing error: {str(e)}", None, None
 
 
-
-# Gradio UI
+# Create Gradio Interface
 interface = gr.Interface(
     fn=analyze_emg,
     inputs=gr.File(label="Upload EMG File (.TXT, .CSV, or .ACQ)"),
@@ -167,9 +166,6 @@ interface = gr.Interface(
     title="EMG Fatigue Detection and Muscle Health Classification",
     description="Upload a TXT, CSV, or ACQ EMG file. ACQ files are automatically converted to CSV format."
 )
-
-# ASGI app for Vercel
-app = interface.app
 
 if __name__ == "__main__":
     interface.launch()
