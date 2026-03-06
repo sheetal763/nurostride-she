@@ -1,8 +1,8 @@
-gradio
-numpy
-pandas
-matplotlib
-scipy
-scikit-learn
-biopython
-bioread
+gradio>=4.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+biopython>=1.79
+bioread>=3.0.5
